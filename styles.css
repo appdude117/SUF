@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse";
+    src: url(Norse-Bold.otf);
+}
+
 #body {
     padding: 0%;
     border: none;
@@ -49,8 +54,10 @@
 }
 
 #combine {
-    padding: 10%;
+    padding: 1%;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .logo {
@@ -69,4 +76,12 @@
     flex: 1 1 auto;
     object-fit: cover;
     opacity: 100%;
+}
+
+#odin {
+    display: flex;
+    text-align: center;
+    font-size: 75%;
+    font-family: "Norse";
+    color: white;
 }
