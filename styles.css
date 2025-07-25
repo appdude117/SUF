@@ -123,3 +123,37 @@
     box-shadow: 10px 0px 5px;
 }
 
+#bot {
+    width:100%;
+}
+
+#but {
+    display: flex;
+    flex-direction: row;
+   
+    background-color: #596D48 ;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    align-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    vertical-align: middle;
+    
+
+}
+
+#but p {
+    display: flex;
+    margin-block: 0;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
